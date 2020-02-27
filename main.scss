@@ -60,5 +60,8 @@ a{
         &:active{
             border: 5px solid $white;
         }
+        @media(max-width:799px){
+            display: none;
+        }
     }
 }
