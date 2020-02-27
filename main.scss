@@ -65,3 +65,13 @@ a{
         }
     }
 }
+.line{
+    width:85%;
+    height: 100px;
+    border: solid 1px $white;
+    border-radius: 45%/60px 100px 0 0;
+    border-color: $orange transparent transparent transparent;
+    position: absolute;
+    top:80px;
+    left:13%;
+}
