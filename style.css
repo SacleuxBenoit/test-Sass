@@ -11,4 +11,8 @@ body {
   background-size: cover;
 }
 
+li {
+  list-style-type: none;
+}
+
 /*# sourceMappingURL=style.css.map */
