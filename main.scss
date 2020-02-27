@@ -18,5 +18,12 @@ body{
 }
 
 li{
-    list-style-type: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    &:visited{
+        color:$white;
+    }
 }
