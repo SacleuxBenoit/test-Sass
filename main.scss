@@ -24,6 +24,23 @@ li{
 a{
     text-decoration: none;
     &:visited{
-        color:$white;
+        color:$white
+    }
+}
+
+// ********************************** HEADER **********************************
+
+.title{
+    padding: 5px 0 0 10px;
+    h1{
+        font-family: 'Megrim', cursive;
+        font-size: 45px;
+        font-weight: 100;
+        text-transform: uppercase;
+        margin: 0;
+        padding-left: 10px;
+        color: $orange;
+        text-shadow: 2px 2px 0px $blue, 4px 4px 0px $red, 4px 4px 2px $orange;
+    
     }
 }

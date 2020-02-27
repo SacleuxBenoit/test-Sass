@@ -22,4 +22,18 @@ a:visited {
   color: #F3F0F0;
 }
 
+.title {
+  padding: 5px 0 0 10px;
+}
+.title h1 {
+  font-family: "Megrim", cursive;
+  font-size: 45px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0;
+  padding-left: 10px;
+  color: #fa9e1e;
+  text-shadow: 2px 2px 0px #84c1ff, 4px 4px 0px #ff1808, 4px 4px 2px #fa9e1e;
+}
+
 /*# sourceMappingURL=style.css.map */
