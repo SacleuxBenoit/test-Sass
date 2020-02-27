@@ -44,3 +44,21 @@ a{
     
     }
 }
+.nav{
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    li{
+        display: inline;
+        padding: 0 15px;
+        border-left: 3px solid $white;
+
+        &:hover{
+            border: 2px solid $white;
+            transition: 0.5s ease-in-out;
+        }
+        &:active{
+            border: 5px solid $white;
+        }
+    }
+}

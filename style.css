@@ -36,4 +36,22 @@ a:visited {
   text-shadow: 2px 2px 0px #84c1ff, 4px 4px 0px #ff1808, 4px 4px 2px #fa9e1e;
 }
 
+.nav {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+.nav li {
+  display: inline;
+  padding: 0 15px;
+  border-left: 3px solid #F3F0F0;
+}
+.nav li:hover {
+  border: 2px solid #F3F0F0;
+  transition: 0.5s ease-in-out;
+}
+.nav li:active {
+  border: 5px solid #F3F0F0;
+}
+
 /*# sourceMappingURL=style.css.map */
