@@ -3,4 +3,16 @@
 $white: #F3F0F0;
 $blue: #84c1ff;
 $red: #ff1808;
-$orange: #fa9e1e
+$orange: #fa9e1e;
+
+body{
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    font-family: 'baumans', cursive;
+    color: $white;
+    background: url("./media/background.jpg") no-repeat 50% 50%;
+    background-size: cover;
+}
