@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/SacleuxBenoit/test-Sass/issues"
   },
-  "homepage": "https://github.com/SacleuxBenoit/test-Sass#readme"
+  "homepage": "https://github.com/SacleuxBenoit/test-Sass#readme",
+  "dependencies": {
+    "sass": "^1.26.1"
+  }
 }
