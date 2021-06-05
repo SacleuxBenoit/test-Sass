@@ -1,7 +1,14 @@
-$red:#FF0000;
-$colorbrick:#B22222;
+
 
 body{
+    $red:#FF0000;
+    $colorbrick:#B22222;
     background-color: $red;
     color: $colorbrick;
+}
+
+// throw an error because $red isn't global
+
+h1{
+    color: $red;
 }
