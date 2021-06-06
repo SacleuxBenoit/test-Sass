@@ -1,14 +1,26 @@
+@mixin centerText {
+    text-align: center;
+}
 
+@mixin blueColor {
+    color: blue;
+}
+
+@mixin backgroundGray{
+    background-color: gray;
+}
 
 body{
     $red:#FF0000;
     $colorbrick:#B22222;
-    background-color: $red;
-    color: $colorbrick;
+    /*background-color: $red;*/
+    @include backgroundGray;
+    @include blueColor
 }
 
-// throw an error because $red isn't global
+/* throw an error because $red isn't global
 
 h1{
     color: $red;
-}
+}*/
+
